@@ -1,13 +1,38 @@
-**About the Dataset ** 
+# About the Dataset
 
-Only use 20 datas of Iris Setosa and Iris Versicolor. 
-In Target field, we set **Iris Setosa as  0 **and **Iris Versicolor as  1 **
+This project utilizes a subset of the Iris dataset, focusing exclusively on two species:
 
-Here is the datas we use, or you can download the datas in UCI MACHINE LEARNING REPOSITORY : https://archive.ics.uci.edu/dataset/53/iris
+- **Iris Setosa**
+- **Iris Versicolor**
 
-![image](https://github.com/user-attachments/assets/6fea9003-d042-4430-99f9-3826c5e047d2)
+## Selected Data
+We use only 20 data samples from the original dataset:
 
-Information set up for Leanring rate and threshold : 
+- **10 samples of Iris Setosa**
+- **10 samples of Iris Versicolor**
 
-Learning rate =  0.4 for updating the weight. 
-Threshold = 0.6 
+In the target field, the classes are encoded as follows:
+
+- **Iris Setosa** is labeled as `0`
+- **Iris Versicolor** is labeled as `1`
+
+## Data Source
+The original dataset can be downloaded from the UCI Machine Learning Repository:
+
+[UCI MACHINE LEARNING REPOSITORY - Iris Dataset](https://archive.ics.uci.edu/dataset/53/iris)
+
+## Dataset Visualization
+An image of the dataset used is provided for better understanding.
+
+---
+
+## Learning Configuration
+
+### Learning Rate
+- `0.4` (used to update the weights during the training process)
+
+### Threshold
+- `0.6` (used as the decision boundary during the classification task)
+
+---
+
