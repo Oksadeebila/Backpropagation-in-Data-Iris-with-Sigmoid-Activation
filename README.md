@@ -24,6 +24,9 @@ The original dataset can be downloaded from the UCI Machine Learning Repository:
 ## Dataset Visualization
 An image of the dataset used is provided for better understanding.
 
+![image](https://github.com/user-attachments/assets/de4e794b-831e-45b8-9a32-49181556deb9)
+
+
 ---
 
 ## Learning Configuration
